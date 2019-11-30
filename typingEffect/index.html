@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        div {
+            font-family: roboto;
+            max-width: 80%;
+            margin: 20px auto;
+            font-size: 60px;
+            letter-spacing: 1px;
+        }
+
+        .kursor {
+            opacity: 0;
+            transition: .2s;
+        }
+
+        .kursor.active {
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <span class="text"></span>
+        <span class="kursor active">|</span>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

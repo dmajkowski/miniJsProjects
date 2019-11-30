@@ -1,12 +1,11 @@
-//uzyj setTimeout
-//opoznic start pisania kazdego slowa
+//uzyje setTimeout
+//opoznie start pisania kazdego slowa
 
 
 const spnText = document.querySelector('.text');
 const spnCursor = document.querySelector('.kursor');
-const txt = ['Witaj!', 'To mój program emitujący pisanie na maszynie!', 'Mam nadzieje, że Ci się podoba! Życzę Ci miłego dnia!'];
-
-//implementacja
+const txt = ['Witaj!', 
+//implementacjaa
 const addLetter = () => {
 
 

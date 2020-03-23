@@ -1,0 +1,22 @@
+* {
+  margin: 0 auto;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50vh;
+}
+
+.main,
+.reset {
+  margin: 20px;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+}

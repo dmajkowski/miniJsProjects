@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Organizer przepisów kulinarnych</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Organizer przepisów kulinarnych</h1>
+      <div class="search-box">
+        <label for="Search">Szukaj składnika:</label>
+        <input type="text" name="Search" id="search-field" />
+      </div>
+    </header>
+    <main class="main">
+      <section class="ingredients-list">
+        <div class="ingredients-list-header">
+          <p class="items">
+            Liczba składników: <span class="items-counter">0</span>
+          </p>
+          <form id="item-add" action="">
+            <input type="text" id="input-item" />
+            <button class="item-add-btn">Dodaj składnik</button>
+          </form>
+        </div>
+        <ul id="items-list"></ul>
+      </section>
+      <section class="recipe">
+        <div class="recipe-description-header">
+          <label for="recipe-description">Tutaj wpisz swój przepis:</label>
+        </div>
+        <textarea
+          id="recipe-description"
+          name="recipe-description"
+          placeholder="Przepis na..."
+        ></textarea>
+      </section>
+    </main>
+    <script src="./own.js"></script>
+  </body>
+</html>
